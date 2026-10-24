@@ -10,6 +10,19 @@ nedlastede filer.
 | Hvorfor kan ett ekstra soverom koste en million? | [`analyser/soverom.py`](analyser/soverom.py) | SSB-tabell 06515, 06518, 09897, 14545 og 14911 |
 | Hvorfor leier vi lagerplass til tingene våre? | [`analyser/lagerplass.py`](analyser/lagerplass.py) | SSB-tabell 05940 og 14545, FEDESSA 2018 og 2025 |
 
+## Hva analysene undersøker
+
+**Soverom.** Blir det uforholdsmessig dyrt å gå fra tre til fire soverom? Skriptet
+henter kvadratmeterpriser, predikert husleie etter antall rom og areal, boligmassen
+etter antall rom og andelen husholdninger som bor trangt etter antall barn. Hovedfunnet
+er at det femte rommet ikke koster mer enn det fjerde når arealet holdes fast. Det som
+skiller, er at boliger med fem rom eller flere er sjeldne i byene.
+
+**Lagerplass.** Har nye boliger mindre lagringsplass, og lønner det seg å leie
+minilager? Skriptet viser hvordan andelen blokkleiligheter blant nye boliger har
+endret seg, hvor mye minilagerbransjen har vokst, og et regneeksempel som sammenligner
+renten på en bod med leien for et minilager.
+
 ## Kom i gang
 
 Prosjektet bruker [Poetry](https://python-poetry.org) og Python 3.11 eller nyere.
